@@ -1,0 +1,203 @@
+{
+  "obavijesti": [
+    {
+      "id": 2,
+      "naslov": "International Cat Day",
+      "datum": "10/5/2023",
+      "tekst": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus mauris metus, vulputate vulputate neque blandit quis. Nunc ultrices diam ligula, nec commodo purus ullamcorper id. Donec aliquet libero eu tincidunt eleifend. Duis ornare tincidunt nisl quis fringilla. Curabitur bibendum metus mauris, in bibendum lectus vestibulum tristique. Sed in nibh facilisis tortor varius euismod at et lectus. In non congue elit. Donec blandit est consequat, porta tellus eu, placerat odio.",
+      "vazno": false
+    },
+    {
+      "id": 3,
+      "naslov": "Join Our Adoption Event",
+      "datum": "2023-05-11T11:06:11.873Z",
+      "tekst": "This event is your chance to make a lifelong connection and give a shelter pet a second chance at happiness.",
+      "vazno": true
+    },
+    {
+      "id": 4,
+      "naslov": "Support Us",
+      "datum": "2023-05-11T11:04:21.327Z",
+      "tekst": "Make a lasting difference in the lives of shelter animals by supporting our cause. Your donation will provide food, and a safe haven for these animals as they await their forever homes. ",
+      "vazno": ""
+    },
+    {
+      "id": 5,
+      "naslov": "Peaceful Strike",
+      "datum": "2023-05-11T11:07:26.333Z",
+      "tekst": "In a powerful demonstration of solidarity, passionate animal rights advocates gathered today in a peaceful strike, demanding justice and a brighter future for our fellow sentient beings",
+      "vazno": ""
+    },
+    {
+      "id": 6,
+      "naslov": "test",
+      "datum": "2023-07-10T09:24:07.748Z",
+      "tekst": "sssss",
+      "vazno": ""
+    },
+    {
+      "id": 7,
+      "naslov": "test",
+      "datum": "2023-07-18T11:11:45.190Z",
+      "tekst": "aaa",
+      "vazno": ""
+    }
+  ],
+  "donacije": [
+    {
+      "id": 5,
+      "kategorija": "",
+      "tip": "Blankets",
+      "vrijednost": "12",
+      "opis": ""
+    },
+    {
+      "id": 7,
+      "kategorija": "donirano",
+      "tip": "Toys",
+      "vrijednost": "20",
+      "opis": "My pet passed away so I want to make others happy and give them toys"
+    },
+    {
+      "id": 9,
+      "kategorija": "donirano",
+      "tip": "Blankets",
+      "vrijednost": "0",
+      "opis": "Your donation of blankets can provide much-needed comfort and warmth to the animals in our shelter, offering them a cozy refuge during their stay and helping them feel safe and secure."
+    },
+    {
+      "id": 11,
+      "kategorija": "donirano",
+      "tip": "Other",
+      "vrijednost": "20",
+      "opis": "Help Papi Get Back on His Paws - Donate Today to Support His Life-Saving Operation!"
+    },
+    {
+      "id": 12,
+      "kategorija": "donirano",
+      "tip": "Food",
+      "vrijednost": "50",
+      "opis": "I want to Donate Food Today and Provide them with Nutritious Meals and Full Bellies."
+    },
+    {
+      "id": 13,
+      "kategorija": "nudi",
+      "tip": "Food",
+      "vrijednost": "60",
+      "opis": "..."
+    },
+    {
+      "id": 14,
+      "kategorija": "nudi",
+      "tip": "Blankets",
+      "vrijednost": "50",
+      "opis": "..."
+    },
+    {
+      "tip": "Toys",
+      "vrijednost": "0",
+      "opis": "Brighten the lives of shelter animals by donating toys and giving them the gift of joy and play.",
+      "kategorija": "donirano",
+      "id": 15
+    },
+    {
+      "tip": "Other",
+      "vrijednost": "20",
+      "opis": "Help Papi Get Back on His Paws - Donate Today to Support His Life-Saving Operation!",
+      "kategorija": "donirano",
+      "id": 16
+    },
+    {
+      "tip": "Other",
+      "vrijednost": "20",
+      "opis": "Help Papi Get Back on His Paws - Donate Today to Support His Life-Saving Operation!",
+      "kategorija": "donirano",
+      "id": 17
+    },
+    {
+      "tip": "Other",
+      "vrijednost": "20",
+      "opis": "Help Papi Get Back on His Paws - Donate Today to Support His Life-Saving Operation!",
+      "kategorija": "donirano",
+      "id": 18
+    },
+    {
+      "id": 19,
+      "kategorija": "nudi",
+      "tip": "Blankets",
+      "vrijednost": "33",
+      "opis": "fdesfdvfgd"
+    },
+    {
+      "id": 20,
+      "kategorija": "nudi",
+      "tip": "Toys",
+      "vrijednost": "22",
+      "opis": "sssss"
+    },
+    {
+      "id": 21,
+      "kategorija": "trazi",
+      "tip": "Toys",
+      "vrijednost": "333",
+      "opis": "sssss"
+    },
+    {
+      "tip": "Toys",
+      "vrijednost": "20",
+      "opis": "My pet passed away so I want to make others happy and give them toys",
+      "kategorija": "trazi",
+      "id": 22
+    },
+    {
+      "tip": "Toys",
+      "vrijednost": "20",
+      "opis": "My pet passed away so I want to make others happy and give them toys",
+      "kategorija": "trazi",
+      "id": 23
+    },
+    {
+      "tip": "Toys",
+      "vrijednost": "0",
+      "opis": "Brighten the lives of shelter animals by donating toys and giving them the gift of joy and play.",
+      "kategorija": "trazi",
+      "id": 24
+    }
+  ],
+  "zivotinje": [
+    {
+      "id": 2,
+      "vrsta": "Dog",
+      "ime": "Papi",
+      "godine": "0.7",
+      "image": "https://images.unsplash.com/photo-1678643207050-c815b6323e29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
+      "opis": "With its soft fur and gentle eyes, the dog had an irresistible charm that melted the hearts of everyone it encountered.",
+      "pregled": "2023-04-09",
+      "cip": true,
+      "udomljen": true
+    }
+  ],
+  "contact": [
+    {
+      "id": 1,
+      "firstName": "Bruns",
+      "lastName": "Mamic",
+      "email": "bm@gmail.com",
+      "message": "Hello, I hope this message finds you well. I am reaching out to inquire about the adoption process at your shelter. I've been considering opening my home to a furry companion and would love to learn more about the available animals and the requirements for adoption. Additionally, if there are any upcoming events or volunteer opportunities, I would be eager to contribute to your cause."
+    },
+    {
+      "id": 2,
+      "firstName": "Marko",
+      "lastName": "Maric",
+      "email": "bm47679@unist.hr",
+      "message": "Please let me know if there are any current openings or upcoming projects where my assistance would be valued. I am excited to join your team and make a positive impact on the lives of these deserving creatures."
+    },
+    {
+      "id": 3,
+      "firstName": "Bruna",
+      "lastName": "Mamić",
+      "email": "brunamamic00@gmail.com",
+      "message": "dddddddddddd"
+    }
+  ]
+}

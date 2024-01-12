@@ -1,0 +1,7 @@
+.listContacts{
+    display: flex;
+    /* flex-wrap: wrap;
+    flex: 2; */
+    margin-top: 50px;
+    flex-direction: column;
+}

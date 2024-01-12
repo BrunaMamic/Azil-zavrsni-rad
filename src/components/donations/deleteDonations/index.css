@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4c4c4cd4;
+    padding: 3rem 7rem;
+    border-radius: 2%;
+    display: flex;
+    z-index: 2;
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+    flex-direction: column;
+}
+
+.modalButtons{
+    display: flex;
+    justify-content: space-between;
+}
+

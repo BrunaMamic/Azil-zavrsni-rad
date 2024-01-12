@@ -1,0 +1,35 @@
+.loginContet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 1.2em;
+    padding: 55px;
+    margin: 550px;
+  }
+  
+  .loginForm{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+  }
+  
+  .loginLabel{
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .loginButton{
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .loginButton:hover{
+    background-color: #0056b3;
+  }

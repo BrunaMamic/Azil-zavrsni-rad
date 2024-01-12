@@ -1,0 +1,58 @@
+.buttonContainer{
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.donationNavBtn{
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+}
+
+.donationNavBtn:hover{
+    background-color: #3992ff;
+    cursor: pointer;
+}
+
+
+.donationProperties{
+    display: flex;
+    font-weight: bold;
+}
+
+.donationRow{
+    display: flex;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+    align-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.donationProp{
+    width: 200px;
+}
+
+/* .donationPropDesc{
+    width: 250px;
+} */
+
+.actionRow{
+    display: flex;
+}
+.actionBtn{
+    border: 1px solid blue;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+.donationSubtitle{
+    font-size: 20px;
+    color: darkred;
+}
+
+.section{
+    margin-bottom: 30px;
+}

@@ -1,0 +1,12 @@
+.sidebar {
+  display: none;
+}
+
+.sidebar-open .sidebar {
+  display: block;
+}
+
+.sidebar.open {
+  width: 200px; /* Adjust the sidebar width as needed */
+  transition: width 0.3s ease;
+}

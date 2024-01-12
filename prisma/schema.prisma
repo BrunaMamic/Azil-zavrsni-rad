@@ -1,0 +1,93 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Filename: schema.prisma
+
+// Define the User model
+// model User {
+//   id               Int               @id @default(autoincrement())
+//   username         String
+//   password         String
+//   role             Int
+//   messages         Message[]
+//   adoptionRequests AdoptionRequest[]
+// }
+
+model User {
+  id               Int               @id @default(autoincrement())
+  firstName        String            @default("")
+  lastName         String            @default("")
+  username         String
+  password         String
+  role             Int
+  messages         Message[]
+  adoptionRequests AdoptionRequest[]
+  donations Donation[]
+
+}
+
+// Define the Animal model
+model Animal {
+  id               Int               @id @default(autoincrement())
+  name             String
+  species          String
+  age              Int
+  description      String
+  adopted          Boolean
+  vetVisit         DateTime
+  image            String
+  isChiped         Boolean
+  adoptionRequests AdoptionRequest[]
+}
+
+// Define the Donation model
+// schema.prisma
+
+model Donation {
+  id          Int      @id @default(autoincrement())
+  amount      Float
+  description String?
+  timestamp   DateTime
+  isDonated Boolean
+  userId Int?
+  user User? @relation(fields: [userId], references: [id]) 
+}
+
+// Define the Message model
+model Message {
+  id        Int      @id @default(autoincrement())
+  user      User     @relation(fields: [userId], references: [id])
+  userId    Int
+  message   String
+  timestamp DateTime
+  messageType  Int?
+}
+
+// Define the AdoptionRequest model
+model AdoptionRequest {
+  id        Int      @id @default(autoincrement())
+  animal    Animal   @relation(fields: [animalId], references: [id])
+  animalId  Int
+  user      User     @relation(fields: [userId], references: [id])
+  userId    Int
+  approved  Boolean
+  timestamp DateTime
+}
+
+// Define the Announcement model
+model Announcement {
+  id        Int     @id @default(autoincrement())
+  title     String
+  content   String
+  important Boolean @default(false)
+  date DateTime
+}

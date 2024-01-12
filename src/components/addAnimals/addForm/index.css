@@ -1,0 +1,84 @@
+.addForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.header {
+  padding: 60px;
+  text-align: left;
+  background: rgb(255 230 186 / 42%);
+  color: rgba(108, 108, 107, 0.482);
+
+  display: inherit;
+}
+
+.headerContent {
+  padding: 20px;
+  font-size: 3rem;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgb(255 230 186 / 42%);
+  display: inherit;
+  padding: 100px;
+}
+
+.picForAddForm {
+  width: 50%;
+}
+
+.addForm {
+  padding: 142px 220px 54px 220px;
+
+  background: #f9f9f9e0;
+}
+/* 
+.adding {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+} */
+
+.inputAddForm {
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  box-shadow: none;
+
+}
+
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+  min-width: 31rem;
+  box-shadow: none;
+}
+
+.selectAdd {
+
+  font-size: 1.1rem;
+  border: none;
+}
+
+.aboutText {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .picForAddForm {
+    display: none;
+  }
+  .addForm {
+    margin-left: 0 !important;
+  }
+}

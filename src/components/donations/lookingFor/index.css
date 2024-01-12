@@ -1,0 +1,96 @@
+
+.donationSubtitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin-left: 20px;
+}
+.section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.donationEdit {
+  display: flex;
+  flex-direction: row;
+  background: #ffffff;
+  border-radius: 19px;
+  height: 250px;
+}
+
+.donationRow {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.donationProp {
+  width: 200px;
+  padding: 15px;
+  font-size: 1.2rem;
+}
+
+.donationPropDesc {
+  width: 250px;
+  padding: 15px;
+}
+
+.actionRow {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+.actionBtn {
+  background: transparent;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 1.4rem;
+  box-shadow: none;
+}
+
+.actionBtn:hover {
+  box-shadow: none;
+}
+
+.bi-box2-heart-fill:hover {
+  color: rgb(21, 78, 55);
+  box-shadow: none;
+  font-size: 1.6rem;
+}
+
+.bi-trash3-fill:hover {
+  color: brown;
+  font-size: 1.6rem;
+}
+
+.contentDonation {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+b {
+  margin-right: 20px;
+  font-size: 1.2rem;
+}
+
+.donationModal {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4c4c4cd4;
+  padding: 3rem 7rem;
+  border-radius: 2%;
+  display: flex;
+  z-index: 2;
+  color: white;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
